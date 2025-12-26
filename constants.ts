@@ -50,8 +50,8 @@ export const PROPERTIES: Property[] = [
     type: 'Land',
     size: '0.5 Acre',
     description: 'A prime and spacious parcel ideal for residential development, farming, or future investment. Located near the shopping center with beautiful neighborhood and easy access.',
-    image: '/Prime half Acre in Kiharu.jpg',
-    images: ['/Prime half Acre in Kiharu.jpg'],
+    image: '/Prime half Acre in Kiharu.webp',
+    images: ['/Prime half Acre in Kiharu.webp'],
     features: ['Near Shopping Center', 'Water Available', 'Electricity', 'Fertile Soil'],
     status: 'For Sale'
   },
@@ -63,8 +63,8 @@ export const PROPERTIES: Property[] = [
     type: 'Land',
     size: '1 Acre',
     description: 'Ideal for building, farming, or residential development. Only 10 minutes drive from Thika town (50 bob fare). A rare lifetime opportunity in a developed area.',
-    image: "/1 Acre at Mang'u.jpg",
-    images: ["/1 Acre at Mang'u.jpg"],
+    image: "/1 Acre at Mang'u.webp",
+    images: ["/1 Acre at Mang'u.webp"],
     features: ['10 Mins from Thika', 'All Documents Available', 'Residential/Farming'],
     status: 'For Sale'
   },
@@ -76,8 +76,8 @@ export const PROPERTIES: Property[] = [
     type: 'Land',
     size: '50x100 ft',
     description: 'Genuine plots just 10 minutes from Makutano Junction. Near Kamweli Shopping Centre and schools. Beaconed with 9-meter wide access roads.',
-    image: '/Sagana Makutano Plots.png',
-    images: ['/Sagana Makutano Plots.png'],
+    image: '/Sagana Makutano Plots.webp',
+    images: ['/Sagana Makutano Plots.webp'],
     features: ['Ready Title Deeds', 'Water & Electricity', 'Fully Fenced', 'Gated'],
     status: 'For Sale'
   },
@@ -89,8 +89,8 @@ export const PROPERTIES: Property[] = [
     type: 'Land',
     size: '50x100 ft',
     description: 'Affordable plots in Ithanga-Maragua, only 30 minutes from Thika. Ideal for home and farming. Ready title deeds.',
-    image: "/Ithanga Murang'a Plots.png",
-    images: ["/Ithanga Murang'a Plots.png"],
+    image: "/Ithanga Murang'a Plots.webp",
+    images: ["/Ithanga Murang'a Plots.webp"],
     features: ['30 mins from Thika', 'Ready Titles', 'Agribusiness Ready'],
     status: 'For Sale'
   },
@@ -102,8 +102,8 @@ export const PROPERTIES: Property[] = [
     type: 'Land',
     size: '50x100 ft',
     description: 'Scenic plots near Oldonyo Sabuk national park area. Perfect for speculation or settlement.',
-    image: '/Kilimambogo Oldonyo Sabuk.jpg',
-    images: ['/Kilimambogo Oldonyo Sabuk.jpg'],
+    image: '/Kilimambogo Oldonyo Sabuk.webp',
+    images: ['/Kilimambogo Oldonyo Sabuk.webp'],
     features: ['Scenic View', 'Developing Area', 'Ready Titles'],
     status: 'For Sale'
   },
@@ -115,8 +115,8 @@ export const PROPERTIES: Property[] = [
     type: 'Residential',
     size: '50x100 ft',
     description: 'Premium residential plots in Tola Ngoingwa estate. High-end neighborhood.',
-    image: '/Tola Ngoingwa.jpg',
-    images: ['/Tola Ngoingwa.jpg'],
+    image: '/Tola Ngoingwa.webp',
+    images: ['/Tola Ngoingwa.webp'],
     features: ['Gated Community', 'Electricity', 'Water', 'Security'],
     status: 'For Sale'
   },
@@ -128,8 +128,8 @@ export const PROPERTIES: Property[] = [
     type: 'Land',
     size: '50x100 ft',
     description: 'Strategic plots in Gatuanyaga area near Thika. High appreciation potential.',
-    image: '/Muguga  Gatuanyaga.png',
-    images: ['/Muguga  Gatuanyaga.png'],
+    image: '/Muguga  Gatuanyaga.webp',
+    images: ['/Muguga  Gatuanyaga.webp'],
     features: ['Near Tarmac', 'Electricity', 'Ready for Settlement'],
     status: 'For Sale'
   },
@@ -141,8 +141,8 @@ export const PROPERTIES: Property[] = [
     type: 'Land',
     size: '1 Acre',
     description: 'Large 1-acre block in Makuyu. Perfect for large scale farming or subdivision.',
-    image: '/Makuyu Mananja Acre.jpg',
-    images: ['/Makuyu Mananja Acre.jpg'],
+    image: '/Makuyu Mananja Acre.webp',
+    images: ['/Makuyu Mananja Acre.webp'],
     features: ['Red Soil', 'Access Roads', 'Water'],
     status: 'For Sale'
   },
@@ -154,8 +154,8 @@ export const PROPERTIES: Property[] = [
     type: 'Land',
     size: '50x100 ft',
     description: 'Very affordable investment plots in Matuu. Get started with land banking today.',
-    image: '/Matuu Plots.jpg',
-    images: ['/Matuu Plots.jpg'],
+    image: '/Matuu Plots.webp',
+    images: ['/Matuu Plots.webp'],
     features: ['Affordable', 'Growing Town', 'Ready Titles'],
     status: 'For Sale'
   },
@@ -167,8 +167,8 @@ export const PROPERTIES: Property[] = [
     type: 'Residential',
     size: '85x100 ft',
     description: 'Prime residential plot in Landless Thika. Larger size (85x100).',
-    image: '/Landless Thika.jpg',
-    images: ['/Landless Thika.jpg'],
+    image: '/Landless Thika.webp',
+    images: ['/Landless Thika.webp'],
     features: ['Large Size', 'developed Area', 'Water & Power'],
     status: 'For Sale'
   },
@@ -180,8 +180,8 @@ export const PROPERTIES: Property[] = [
     type: 'Commercial',
     size: 'Plot',
     description: 'Prime commercial plot next to TIBS College. Ideal for hostels or commercial building.',
-    image: '/Thika Town Commercial.png',
-    images: ['/Thika Town Commercial.png'],
+    image: '/Thika Town Commercial.webp',
+    images: ['/Thika Town Commercial.webp'],
     features: ['CBD Location', 'Commercial Use', 'High Footfall'],
     status: 'For Sale'
   },
@@ -193,8 +193,8 @@ export const PROPERTIES: Property[] = [
     type: 'Land',
     size: '1 Acre',
     description: 'Incredibly affordable 1 acre land in Mwingi. Best for long term banking.',
-    image: '/Mwingi Acre.png',
-    images: ['/Mwingi Acre.png'],
+    image: '/Mwingi Acre.webp',
+    images: ['/Mwingi Acre.webp'],
     features: ['Low Cost', 'Large Size', 'Investment'],
     status: 'For Sale'
   }
@@ -208,14 +208,14 @@ export const TEAM: TeamMember[] = [
     name: "Stephen Ndung'u",
     role: 'CEO & Founder',
     bio: 'Leading Provision Land & Properties Ltd with a promise to deliver genuinely.',
-    image: "/Stephen Ndung'u.jpg"
+    image: "/Stephen Ndung'u.webp"
   },
   {
     id: 't2',
     name: 'Sales Team',
     role: 'Customer Relations',
     bio: 'Our dedicated team is ready to take you for site visits daily.',
-    image: '/Sales Team.jpg'
+    image: '/Sales Team.webp'
   }
 ];
 
@@ -242,7 +242,7 @@ At Provision Land & Properties Ltd, we identified this trend early. Our projects
 
 **The Verdict**
 If you are sitting on the fence, looking at land in 2025, look North. The Kenol-Sagana corridor is no longer a speculation; it is a proven growth trajectory. Whether you want to build a country home away from the Nairobi noise or speculate for capital gains, the time to enter this market is now, before the prices catch up to Thika's levels.`,
-    image: '/kenya-infrastructure.jpg'
+    image: '/kenya-infrastructure.webp'
   },
   {
     id: 'b2',
@@ -268,7 +268,7 @@ We don't just sell you land; we hand you a title deed. We embrace this digital e
 
 **The Bottom Line**
 Don't fear the digital shift. Embrace it. It is the best thing to happen to Kenyan real estate. Ensure your next land purchase is "Ardhisasa Compliant"—a guarantee we offer on all our properties.`,
-    image: '/ardhisasa-digital.jpg'
+    image: '/ardhisasa-digital.webp'
   },
   {
     id: 'b3',
@@ -294,7 +294,7 @@ The trend is irreversible. Urbanization is expanding outwards. The "Nairobi Metr
 
 **Advice to Buyers**
 Do not wait for the tarmac to reach the plot to buy it; buy it, and wait for the tarmac. By the time the infrastructure is perfect, the price will be out of reach. Look at our listings in Ngoingwa and Matuu. Visit them. Feel the air. You will understand why thousands of Kenyans are saying "Goodbye Nairobi, Hello Neighbors".`,
-    image: '/real-estate-boom.jpg'
+    image: '/real-estate-boom.webp'
   }
 ];
 
@@ -304,20 +304,20 @@ export const TESTIMONIALS: Testimonial[] = [
     name: 'James Mwangi',
     role: 'Investor',
     content: 'I bought my plot in Ithanga for 700k. The title deed was ready as promised. Genuine people.',
-    avatar: '/James Mwangi.jpg'
+    avatar: '/James Mwangi.webp'
   },
   {
     id: 'tm2',
     name: 'Sarah Njoroge',
     role: 'Homeowner',
     content: 'The 1 acre in Mang’u is a gem. 10 mins from town and very affordable compared to others.',
-    avatar: '/Sarah Njoroge.jpg'
+    avatar: '/Sarah Njoroge.webp'
   },
   {
     id: 'tm3',
     name: 'David Otieno',
     role: 'Business Owner',
     content: '5-star service! They took me for a site visit and the process was seamless.',
-    avatar: '/David Otieno.jpg'
+    avatar: '/David Otieno.webp'
   }
 ];

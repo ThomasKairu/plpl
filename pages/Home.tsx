@@ -7,43 +7,43 @@ import { PropertyCard } from '../components/PropertyCard';
 
 const HERO_SLIDES = [
   {
-    image: '/carousel1.png',
+    image: '/carousel1.webp',
     title: 'Choose the Best',
     subtitle: 'We Promise and Deliver Genuinely',
     align: 'left'
   },
   {
-    image: '/carousel2.png',
+    image: '/carousel2.webp',
     title: 'Trusted by Thousands',
     subtitle: 'Your Title Deed is Ready',
     align: 'center'
   },
   {
-    image: '/carousel3.png',
+    image: '/carousel3.webp',
     title: 'Genuine Documentation',
     subtitle: 'Hassle-free Transfer Process',
     align: 'center'
   },
   {
-    image: '/carousel4.png',
+    image: '/carousel4.webp',
     title: 'Free Site Visits',
     subtitle: 'Every Saturday - Join Us!',
     align: 'right'
   },
   {
-    image: '/carousel5.png',
+    image: '/carousel5.webp',
     title: 'Prime Locations',
     subtitle: 'Makutano, Ithanga, Thika',
     align: 'center'
   },
   {
-    image: '/carousel6.png',
+    image: '/carousel6.webp',
     title: 'Tola Estate Ngoingwa',
     subtitle: 'Premium Residential Plots',
     align: 'left'
   },
   {
-    image: '/carousel7.png',
+    image: '/carousel7.webp',
     title: 'Invest Today',
     subtitle: 'Secure Your Future',
     align: 'right'
@@ -96,22 +96,20 @@ export const Home: React.FC = () => {
 
       {/* Infinite Carousel Hero Section */}
       <section className="relative h-[650px] md:h-[800px] flex items-center overflow-hidden bg-brand-900 group">
-        
+
         {/* Slides */}
         {HERO_SLIDES.map((slide, index) => (
-          <div 
+          <div
             key={index}
-            className={`absolute inset-0 w-full h-full transition-opacity duration-1000 ease-in-out ${
-              index === currentSlide ? 'opacity-100 z-10' : 'opacity-0 z-0'
-            }`}
+            className={`absolute inset-0 w-full h-full transition-opacity duration-1000 ease-in-out ${index === currentSlide ? 'opacity-100 z-10' : 'opacity-0 z-0'
+              }`}
           >
             <div className="relative w-full h-full overflow-hidden">
-               <img 
-                src={slide.image} 
-                alt={slide.title} 
-                className={`w-full h-full object-cover transform transition-transform duration-[10000ms] ease-linear ${
-                  index === currentSlide ? 'scale-110' : 'scale-100'
-                }`}
+              <img
+                src={slide.image}
+                alt={slide.title}
+                className={`w-full h-full object-cover transform transition-transform duration-[10000ms] ease-linear ${index === currentSlide ? 'scale-110' : 'scale-100'
+                  }`}
               />
               {/* Intelligent Overlay: Darker gradient to make text readable over busy flyers */}
               <div className="absolute inset-0 bg-gradient-to-r from-brand-900/95 via-brand-800/70 to-transparent mix-blend-multiply"></div>
@@ -121,13 +119,13 @@ export const Home: React.FC = () => {
         ))}
 
         {/* Carousel Navigation Arrows */}
-        <button 
+        <button
           onClick={prevSlide}
           className="absolute left-4 z-30 p-2 rounded-full bg-white/10 backdrop-blur-md text-white hover:bg-white/20 transition opacity-0 group-hover:opacity-100 hidden md:block"
         >
           <ChevronLeft size={32} />
         </button>
-        <button 
+        <button
           onClick={nextSlide}
           className="absolute right-4 z-30 p-2 rounded-full bg-white/10 backdrop-blur-md text-white hover:bg-white/20 transition opacity-0 group-hover:opacity-100 hidden md:block"
         >
@@ -140,13 +138,12 @@ export const Home: React.FC = () => {
             <button
               key={idx}
               onClick={() => setCurrentSlide(idx)}
-              className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                idx === currentSlide ? 'w-8 bg-accent-500' : 'bg-white/50 hover:bg-white'
-              }`}
+              className={`w-2 h-2 rounded-full transition-all duration-300 ${idx === currentSlide ? 'w-8 bg-accent-500' : 'bg-white/50 hover:bg-white'
+                }`}
             />
           ))}
         </div>
-        
+
         {/* Content Overlay */}
         <div className="relative z-20 container mx-auto px-4 text-white">
           <div className="max-w-3xl">
@@ -156,43 +153,43 @@ export const Home: React.FC = () => {
                 <Star className="text-yellow-400 fill-current" size={14} /> 5-Star Rated Real Estate
               </span>
             </div>
-            
+
             {/* Main Headings */}
             <h1 className="text-4xl md:text-7xl font-serif font-bold mb-6 leading-tight animate-fade-in-up delay-100 drop-shadow-2xl">
               {COMPANY_INFO.slogan}
-              <br/>
+              <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-brand-200">
-                 {HERO_SLIDES[currentSlide].title}
+                {HERO_SLIDES[currentSlide].title}
               </span>
             </h1>
-            
+
             <p className="text-lg md:text-2xl text-brand-50 mb-10 max-w-2xl leading-relaxed animate-fade-in-up delay-200 drop-shadow-md font-light">
               {HERO_SLIDES[currentSlide].subtitle}. Join thousands of happy landowners. From Ksh 280K plots to Premium listings in Thika.
             </p>
-            
+
             {/* Search Box */}
             <div className="bg-white/10 backdrop-blur-lg p-3 rounded-xl max-w-xl shadow-2xl border border-white/20 flex flex-col md:flex-row gap-2 animate-fade-in-up delay-300 transform transition hover:scale-105 duration-300">
-               <div className="flex-grow">
-                 <input 
-                   type="text" 
-                   value={searchTerm}
-                   onChange={(e) => setSearchTerm(e.target.value)}
-                   onKeyDown={handleKeyDown}
-                   placeholder="Search (e.g. Makutano, acre, commercial)..." 
-                   className="w-full h-12 px-4 rounded-lg bg-white/90 text-gray-900 focus:outline-none placeholder:text-gray-500 font-medium"
-                 />
-               </div>
-               <button 
+              <div className="flex-grow">
+                <input
+                  type="text"
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  onKeyDown={handleKeyDown}
+                  placeholder="Search (e.g. Makutano, acre, commercial)..."
+                  className="w-full h-12 px-4 rounded-lg bg-white/90 text-gray-900 focus:outline-none placeholder:text-gray-500 font-medium"
+                />
+              </div>
+              <button
                 onClick={handleSearch}
                 className="bg-accent-600 hover:bg-accent-700 text-white px-8 py-3 rounded-lg font-bold transition flex items-center justify-center gap-2 shadow-lg whitespace-nowrap">
-                 <Search size={20} /> Find Plot
-               </button>
+                <Search size={20} /> Find Plot
+              </button>
             </div>
 
             <div className="mt-8 flex flex-wrap gap-4 text-sm font-bold text-white/90 animate-fade-in-up delay-500 tracking-wide uppercase">
-               <span className="flex items-center gap-1"><CheckCircle2 size={16} className="text-accent-500" /> Ready Titles</span>
-               <span className="flex items-center gap-1"><CheckCircle2 size={16} className="text-accent-500" /> Site Visits Daily</span>
-               <span className="flex items-center gap-1"><CheckCircle2 size={16} className="text-accent-500" /> Flexible Payments</span>
+              <span className="flex items-center gap-1"><CheckCircle2 size={16} className="text-accent-500" /> Ready Titles</span>
+              <span className="flex items-center gap-1"><CheckCircle2 size={16} className="text-accent-500" /> Site Visits Daily</span>
+              <span className="flex items-center gap-1"><CheckCircle2 size={16} className="text-accent-500" /> Flexible Payments</span>
             </div>
           </div>
         </div>
@@ -206,14 +203,14 @@ export const Home: React.FC = () => {
             <div className="h-1 w-20 bg-accent-500 mx-auto rounded-full"></div>
             <p className="mt-4 text-gray-600 max-w-2xl mx-auto">We promise and deliver genuinely across all our service offerings.</p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {SERVICES.map((service) => (
               <div key={service.id} className="p-8 rounded-xl bg-gray-50 border border-gray-100 hover:shadow-xl hover:border-brand-200 transition duration-300 group">
                 <div className="w-14 h-14 bg-brand-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-brand-500 transition duration-300">
-                   <div className="text-brand-600 group-hover:text-white transition duration-300 font-bold text-xl">
-                      {service.title.charAt(0)}
-                   </div>
+                  <div className="text-brand-600 group-hover:text-white transition duration-300 font-bold text-xl">
+                    {service.title.charAt(0)}
+                  </div>
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">{service.title}</h3>
                 <p className="text-gray-600 leading-relaxed text-sm mb-4">{service.description}</p>
@@ -238,13 +235,13 @@ export const Home: React.FC = () => {
               View All Properties <ArrowRight size={20} />
             </Link>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {featuredProperties.map((prop) => (
               <PropertyCard key={prop.id} property={prop} />
             ))}
           </div>
-          
+
           <div className="mt-12 text-center md:hidden">
             <Link to="/properties" className="inline-block bg-white border border-gray-300 text-slate-700 font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition">
               View All Properties
@@ -258,7 +255,7 @@ export const Home: React.FC = () => {
         <div className="absolute top-0 right-0 w-1/3 h-full bg-brand-800 skew-x-12 transform translate-x-20 opacity-50"></div>
         <div className="container mx-auto px-4 relative z-10 flex flex-col md:flex-row items-center gap-12">
           <div className="flex-1">
-             <img src="/our core value.jpg" alt="Why Choose Us" className="rounded-2xl shadow-2xl border-4 border-brand-700" />
+            <img src="/our core value.webp" alt="Why Choose Us" className="rounded-2xl shadow-2xl border-4 border-brand-700" loading="lazy" />
           </div>
           <div className="flex-1">
             <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">Our Core Values</h2>
@@ -290,7 +287,7 @@ export const Home: React.FC = () => {
 
       {/* Call to Action */}
       <section className="py-16 bg-brand-600 text-white text-center relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/our properties hero background.jpg')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
+        <div className="absolute inset-0 bg-[url('/our properties hero background.webp')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
         <div className="container mx-auto px-4 relative z-10">
           <h2 className="text-3xl font-serif font-bold mb-4">Site Visits Available Daily!</h2>
           <p className="text-brand-100 mb-8 max-w-2xl mx-auto">Call 0797 331 355 or 0727 774 279 to book your site visit to Matuu, Thika, or Ithanga.</p>
